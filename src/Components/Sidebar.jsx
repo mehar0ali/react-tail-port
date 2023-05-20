@@ -15,7 +15,7 @@ export default function Sidebar() {
     { name: "Messages", link: "/", icon: FiMessageSquare },
     { name: "Analytics", link: "/", icon: TbReportAnalytics, margin: true },
     { name: "File Manager", link: "/", icon: FiFolder },
-    { name: "Cart", link: "/", icon: FiShoppingCart, quantity: 0 },
+    { name: "Cart", link: "/", icon: FiShoppingCart},
     { name: "Saved", link: "/", icon: AiOutlineHeart, margin: true },
     { name: "Setting", link: "/", icon: RiSettings4Line },
   ];
@@ -68,9 +68,6 @@ export default function Sidebar() {
                   >
                     {elem.name}
                   </h2>
-                  <p className="text-white absolute left-6 bottom-36">
-                    {elem.quantity}
-                  </p>
                 </Link>
               );
             })}
