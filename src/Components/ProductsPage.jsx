@@ -49,7 +49,7 @@ export default function ProductsPage() {
       <div className="w-[100%] bg-gray-800 flex justify-center">
         <div className="text-white py-7 w-[80%] h-full ml-16">
           <div className="w-full h-full flex flex-col items-center pt-5 text-3xl font-semibold ">
-            <h1>List of Products</h1>
+            <h1>List of Languages</h1>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl gap-6 place-items-center items-center py-10">
               {slides.map((elem, ind) => {
                 return (

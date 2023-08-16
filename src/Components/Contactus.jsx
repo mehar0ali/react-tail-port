@@ -23,7 +23,7 @@ export default function Contactus() {
           <textarea
             name="Text"
             placeholder="Give us your Feedback"
-            className="mt-5 px-3 py-2 w-[210px] sm:w-[340px] md:w-[530px] lg:w-[610px] xl:w-[670px] rounded-sm bg-gray-800 border-2 border-white border-spacing-2 outline-none"
+            className="mt-5 px-3 py-2 w-[210px] sm:w-[340px] md:w-[510px] lg:w-[610px] xl:w-[670px] rounded-sm bg-gray-800 border-2 border-white border-spacing-2 outline-none"
             cols="52"
             rows="10"
           ></textarea>

@@ -2,7 +2,7 @@ import { MdOutlineCopyright } from "react-icons/md";
 
 export default function Copyright() {
   const CopyRight = [
-    { icon: MdOutlineCopyright, desc: "Copyright License by Mehar Ali" },
+    { icon: MdOutlineCopyright, desc: "Copyright License by ShaqqiTech" },
   ];
 
   return (
